@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OculaCare - Static Pages</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to OculaCare</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="privacy_policy.html">Privacy Policy</a></li>
+        <li><a href="partners.html">Partners</a></li>
+        <li><a href="terms_conditions.html">Terms</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>OculaCare is dedicated to providing the best care for your eyes. Our services are designed with your well-being in mind.</p>
+    </section>
+
+    <section>
+      <h2>Our Mission</h2>
+      <p>We strive to make eye care accessible to everyone, ensuring the best vision for all our clients.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 OculaCare. All rights reserved.</p>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyCyKSc7kLzLARfJDgBfshgvr913NKKgqDQ",
+      authDomain: "oculastatic.firebaseapp.com",
+      projectId: "oculastatic",
+      storageBucket: "oculastatic.appspot.com",
+      messagingSenderId: "1071213685515",
+      appId: "1:1071213685515:web:e85e8ac5f99c6bfc92900e"
+    };
+
+    const app = firebase.initializeApp(firebaseConfig);
+  </script>
+</body>
+</html>
