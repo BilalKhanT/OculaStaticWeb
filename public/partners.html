@@ -4,9 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Partners</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Base Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8; /* Light blue background */
+            color: #333; /* Darker text for readability */
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* Container for content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Heading Styling */
+        h1 {
+            color: #0047ab; /* Deep blue */
+            text-align: left;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Paragraph Styling */
+        p {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        /* Partner Tile Styling */
+        .partner-tile {
+            display: flex;
+            align-items: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .partner-tile img {
+            width: 100px; /* Adjust logo size */
+            height: auto;
+            margin-right: 20px; /* Space between logo and text */
+        }
+
+        .partner-tile h2 {
+            font-size: 1.8rem;
+            color: #0047ab;
+            margin-bottom: 10px;
+        }
+
+        .partner-tile p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .partner-tile {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .partner-tile img {
+                margin-right: 0;
+                margin-bottom: 15px;
+                width: 80px;
+            }
+
+            .partner-tile h2 {
+                font-size: 1.5rem;
+            }
+
+            .partner-tile p {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .partner-tile img {
+                width: 70px;
+            }
+
+            .partner-tile h2 {
+                font-size: 1.3rem;
+            }
+
+            .partner-tile p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Partners</h1>
-    <p>Here is the list of our partners...</p>
+
+    <div class="container">
+        <h1>Partners</h1>
+        <p>We are proud to collaborate with leading institutions and organizations to drive innovation and growth. Here is the list of our valued partners:</p>
+        
+        <!-- Partner Tile -->
+        <div class="partner-tile">
+            <img src="https://crystalpng.com/wp-content/uploads/2022/02/COMSATS-University-logo.png" alt="COMSATS Logo">
+            <div>
+                <h2>COMSATS University Islamabad</h2>
+                <p>COMSATS University Islamabad (CUI) is a leading public university in Pakistan. Established in 1998, it is committed to promoting education, research, and innovation. The university offers a range of undergraduate and postgraduate programs in engineering, computer science, and social sciences, and is known for its cutting-edge research and strong focus on technology.</p>
+            </div>
+        </div>
+
+    
+        
+    </div>
+
 </body>
 </html>
